@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecmix Show - Loja Oficial</title>
+    
+    <!-- Meta Tags Open Graph para a prévia do WhatsApp -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tecmix Show - Loja Oficial" />
+    <meta property="og:description" content="Confira nossos produtos, ofertas e promoções exclusivas! Clique para acessar." />
+    
+    <!-- LINK DA SUA LOGO (Atualize depois de publicar no servidor) -->
+    <meta property="og:image" content="https://seudominio.com/logo.png" />
+    <meta property="og:image:secure_url" content="https://seudominio.com/logo.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f6f6f6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            max-width: 400px;
+            width: 100%;
+            padding: 32px 24px;
+            text-align: center;
+            border-top: 4px solid #ee4d2d;
+        }
+        .logo {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 22px;
+            color: #222222;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 14px;
+            color: #555555;
+            margin-bottom: 28px;
+            line-height: 1.5;
+        }
+        .btn-shopee {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            background-color: #ee4d2d; /* Laranja Shopee */
+            color: #ffffff;
+            padding: 16px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            box-shadow: 0 4px 12px rgba(238, 77, 45, 0.25);
+        }
+        .btn-shopee:hover {
+            background-color: #d73211;
+        }
+        .btn-shopee:active {
+            transform: scale(0.98);
+        }
+        .footer-note {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #888888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Sua Logo -->
+        <img src="logo.png" alt="Tecmix Show" class="logo">
+        
+        <h1>Tecmix Show</h1>
+        <p>Seja bem-vindo(a)! Clique abaixo para conferir nossos produtos e promoções diretamente na loja.</p>
+        
+        <!-- Botão direcionando para sua loja na Shopee -->
+        <a href="https://collshp.com/tecmixshow?view=storefront" class="btn-shopee">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            VER PRODUTOS NA LOJA
+        </a>
+        
+        <div class="footer-note">
+            Ambiente seguro • Redirecionamento oficial
+        </div>
+    </div>
+
+</body>
+</html>
+
